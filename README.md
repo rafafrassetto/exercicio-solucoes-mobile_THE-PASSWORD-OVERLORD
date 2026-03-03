@@ -21,4 +21,9 @@ O sistema é um motor de validação de senhas dinâmico e interativo feito em K
 8. **Extra 3:** A senha deve iniciar e terminar com o mesmo caractere.
 
 ### Como executar
+
 Basta rodar o arquivo `Main.kt` em uma IDE compatível com Kotlin e interagir pelo terminal.
+
+## Demonstração : 
+
+https://github.com/user-attachments/assets/c25c23ad-c4e4-4575-a55f-8c9dd26b4af2
