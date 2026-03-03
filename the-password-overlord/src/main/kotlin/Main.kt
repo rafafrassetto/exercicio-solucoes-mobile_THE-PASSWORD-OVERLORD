@@ -11,13 +11,17 @@ fun main() {
         Requisito("A senha deve conter a palavra 'satc' (não diferencia maiúsculas/minúsculas).") { senha ->
             senha.contains("satc", ignoreCase = true)
         },
+
+        Requisito("A senha deve conter a palavra 'criciuma' (não diferencia maiúsculas/minúsculas).") { senha ->
+            senha.contains("criciuma", ignoreCase = true)
+        },
         
         Requisito("A senha deve conter o ano do Hexa (2026).") { senha -> 
             senha.contains("2026") 
         },
         
-        Requisito("A senha deve conter pelo menos um emoji (ex: 🏆, 🐯).") { senha ->
-            senha.any { it.isSurrogate() } || Regex("[\\p{So}]").containsMatchIn(senha)
+        Requisito("A senha deve conter o emoji de tigre (🐯).") { senha ->
+            senha.contains("🐯")
         },
 
         Requisito("A senha deve conter o dia atual em algarismos romanos (III).") { senha ->
