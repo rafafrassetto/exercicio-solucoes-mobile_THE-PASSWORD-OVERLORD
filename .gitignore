@@ -1,0 +1,8 @@
+.idea/
+out/
+*.iml
+*.iws
+.gradle/
+build/
+*.kotlin_module
+*.kotlin_builtins
