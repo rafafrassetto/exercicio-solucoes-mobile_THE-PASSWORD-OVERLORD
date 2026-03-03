@@ -5,11 +5,10 @@ Repositório destinado à entrega do exercício "The Password Overlord" da disci
 O sistema é um motor de validação de senhas dinâmico e interativo feito em Kotlin, utilizando os conceitos de Orientação a Objetos (POO) e Programação Funcional (Lambdas). O algoritmo desafia o usuário a criar uma "senha absoluta", validando requisitos sequenciais simulando a lógica de um validador moderno.
 
 ###  Dados Acadêmicos
-* **Instituição:** Centro Universitário SATC
+* **Instituição:** UNISATC
 * **Curso:** Engenharia de Software
 * **Professor:** Thyerri Mezzari
 * **Aluno:** Rafael Frassetto Pereira
-* **RA:** 202312206
 
 ### 🛠️ Regras Implementadas
 1. Mínimo de 5 caracteres.
